@@ -1,0 +1,21 @@
+Package: koycktrans
+Type: Package
+Title: Estimation de la transformation de koyck pour les modeles a retard echenlonnes.
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Mpa benjamin daniel"
+      email = c("benjaminmpa424@gmail.com" ,"mpabenjamin424@icloud.com"),
+      role = c("aut", "cre")
+    )
+  )
+Description: Estime par moindres carres ordinaires un modele a retards echelonnes transforme par koyck, et calcule le retard moyen et le retard median.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    stats
+Config/roxygen2/version: 8.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
